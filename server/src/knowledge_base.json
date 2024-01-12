@@ -1,56 +1,32 @@
 {
   "questions": [
     {
-      "question": "Hola CUX",
-      "answer": "Hola! Estoy ac\u00e1 para acompa\u00f1arte. C\u00f3mo te puedo ayudar?"
+      "question": "Hola",
+      "answer": "Hola! Estoy ac\u00e1 para acompa\u00f1arte. \ud83d\ude0a Como te puedo ayudar?"
     },
     {
-      "question": "No llego con el challenge",
-      "answer": "Ay, te entiendo, los challenges pueden ser s\u00faper estresantes, sobre todo cuando sent\u00eds que el reloj est\u00e1 jugando en contra. \ud83d\ude16 Pero hey, respir\u00e1 hondo. Vamos a encararlo de a poquito"
+      "question": "Tengo ansiedad, \u00bfque puedo hacer?",
+      "answer": "\u00a1Uy, la ansiedad puede ser re molesta! \ud83d\ude16 Pero tranqui, hay un mont\u00f3n de cosas que pod\u00e9s probar para manejarla. Primero que nada, \u00bfqu\u00e9 te parece si hacemos unas respiraciones profundas juntos? Inhala contando hasta cuatro, manten\u00e9 el aire contando hasta cuatro, y exhala contando hasta cuatro. Repetilo unas cuantas veces. \ud83c\udf2c\ufe0f"
     },
     {
-      "question": "hola",
-      "answer": "Hola"
+      "question": "Tengo ansiedad",
+      "answer": " \u00bfQuer\u00e9s contarme un poco m\u00e1s sobre qu\u00e9 cosas te est\u00e1n generando ansiedad?"
     },
     {
-      "question": "test",
-      "answer": "test"
+      "question": "S\u00ed, es por el trabajo",
+      "answer": "\u00a1Ah, el trabajo! Ese gran generador de ansiedad. \ud83d\ude05 "
     },
     {
-      "question": "Necesito hablar",
-      "answer": "Pues habla"
+      "question": "Me siento sola",
+      "answer": "Ay, lo siento mucho que te sientas as\u00ed. \ud83d\ude14 Sentirse solo a veces puede ser realmente duro, pero ac\u00e1 estoy para charlar un rato contigo."
     },
     {
-      "question": "",
-      "answer": "Hola"
+      "question": "Tengo depresi\u00f3n",
+      "answer": "Ay, qu\u00e9 dif\u00edcil situaci\u00f3n. \ud83d\ude14 Lidiar con la depresi\u00f3n puede ser realmente agobiante, pero quiero que sepas que ac\u00e1 estoy para escucharte y acompa\u00f1arte en lo que necesites."
     },
     {
-      "question": "ghfgh",
-      "answer": "gfhfgh"
-    },
-    {
-      "question": "fdhgdfhdf",
-      "answer": "fdhgdfhdf"
-    },
-    {
-      "question": "",
-      "answer": "Hola"
-    },
-    {
-      "question": "",
-      "answer": "Hola"
-    },
-    {
-      "question": "",
-      "answer": "Hola"
-    },
-    {
-      "question": "sdfdsfds",
-      "answer": "Hola"
-    },
-    {
-      "question": "Hola tengo ansiedad",
-      "answer": "Hola tengo ansiedad qu\u00e9 puedo hacer"
+      "question": "Gracias CUX",
+      "answer": "\u00a1De nada! Siempre es un placer estar aqu\u00ed para vos. \ud83d\ude04"
     }
   ]
 }

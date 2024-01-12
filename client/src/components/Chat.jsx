@@ -8,6 +8,7 @@ import StopRecordingIcon from "../assets/icons/StopRecording";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
+import cux from "../assets/cux-profile.svg";
 
 const Chat = () => {
   const [userInput, setUserInput] = useState("");
@@ -109,6 +110,7 @@ const Chat = () => {
                 : "flex justify-start items-center"
             }
           >
+            {message.role === "cux" ? <img src={cux} alt="cux-photo" /> : ""}
             <div
               className={
                 message.role === "cux"
@@ -169,15 +171,6 @@ const Chat = () => {
             </button>
           )}
         </button>
-        {/* {isSpeechRecording && (
-          <div>
-            <p>Microphone: {listening ? "on" : "off"}</p>
-            <button onClick={SpeechRecognition.startListening}>Start</button>
-            <button onClick={SpeechRecognition.stopListening}>Stop</button>
-            <button onClick={resetTranscript}>Reset</button>
-            <p>{transcript}</p>
-          </div>
-        )} */}
         <button
           onClick={handleSubmit}
           className="bg-[#8869a5] p-2 text-white rounded-full flex items-center justify-center"

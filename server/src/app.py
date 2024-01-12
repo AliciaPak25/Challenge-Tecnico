@@ -38,7 +38,7 @@ def chat():
         save_knowledge_base('knowledge_base.json', knowledge_base)
         learning_mode = False
         pending_question = ""
-        return jsonify({'bot_response': "Thank you! I learned a new response!"})
+        return jsonify({'bot_response': "¡Gracias! ¡Ya sé que responder la próxima vez!"})
 
     best_match = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
 
@@ -48,7 +48,7 @@ def chat():
     else:
         learning_mode = True
         pending_question = user_input
-        return jsonify({'bot_response': "I don't know the answer. Can you teach me?"})
+        return jsonify({'bot_response': "No sé la respuesta. ¿Qué te gustaría que responda?"})
 
 def save_knowledge_base(file_path, data):
     with open(file_path, 'w') as file:
