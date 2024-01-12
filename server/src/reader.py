@@ -1,16 +1,3 @@
-""" from gtts import gTTS
-import os
-
-text = "Hola me llamo CUX, y tu?"
-
-language = 'es-es'
-
-speech = gTTS(text = text, lang = language, slow = False)
-
-speech.save("texto.mp3")
-
-os.system("start texto.mp3") """
-
 from gtts import gTTS
 from io import BytesIO
 import base64
